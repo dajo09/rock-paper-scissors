@@ -1,0 +1,40 @@
+body{
+  font-family: Arial;
+  background-color: rgb(25, 25, 25);
+  color: white;
+}
+
+.p-title{
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.p-msg{
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+img{
+  height: 50px;
+}
+
+.btn-hand{
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 60px;
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.p-score{
+  margin-top: 60px;
+}
+
+.btn-reset{
+  padding: 8px 10px;
+  font-size:15px;
+  cursor:pointer;
+}

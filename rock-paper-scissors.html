@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <link rel="stylesheet" href="rock-paper-scissors.css">
+</head>
+<body>
+  <p class = "p-title">Rock Paper Scissors</p>
+  
+  <button class = 'js-btn-rock btn-hand' onclick="score('rock');"><img class='js-img-hand' src="icons/rock-emoji.png" alt=""></button>
+  <button class = 'js-btn-paper btn-hand' onclick="score('paper');"><img class='js-img-hand' src="icons/paper-emoji.png" alt=""></button>
+  <button class = 'js-btn-scissors btn-hand' onclick="score('scissors');"><img class='js-img-hand' src="icons/scissors-emoji.png" alt=""></button>
+
+  <p class='js-p-msg p-msg'>Begin.</p>
+  <p class='js-p-hand p-hand'></p>
+  <p class='js-p-score p-score'></p>
+
+  <button class='js-btn-reset btn-reset' onclick="reset();">Reset Scores</button>
+
+  <script src="rock-paper-scissors.js"></script>
+</body>
+</html>
